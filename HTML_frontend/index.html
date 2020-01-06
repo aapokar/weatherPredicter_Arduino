@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--HTML-määrittelyt-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Javascript ja css sourcet-->
+    <script type="text/javascript" src="scripts/skriptit.js"></script>
+    <script type="text/javascript" src="scripts/secrets.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Datakaavio</title>
+</head>
+
+<!--onload on attribuutti, joka suoritetaan kun selain lataa kyseisen elementin-->
+<body onload="aloitus()">
+    <div class="container">
+        <!--kaavion pohjaelementti-->
+        <canvas id="myChart" width="400" height="200"></canvas>
+        <div>
+            <span id="testi1"></span>
+        </div>
+        <div>
+            <span id="testi2"></span>
+            <p>Heitto keskimäärin</p>
+        </div>
+        <div>
+            <span id="testi3"></span>
+            <p>Ennuste huomiselle</p>
+        </div>
+        <div>
+            <span id="testi4"></span>
+            <p>Ennuste korjattu keskimääräisellä heitolla</p>
+        </div>
+
+        <!--Kaavion javascript source-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.2/dist/Chart.min.js"></script>
+
+        <!--End container-->
+    </div>
+</body>
+
+</html>
