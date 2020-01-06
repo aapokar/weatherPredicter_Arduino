@@ -1,3 +1,3 @@
-# Spedenspeli
+# Parvekkeen säätä ennustava arduino
 
-Projektin tarkoituksena on luoda aikaisemmin tehdystä Speden Speleistä tutun nopeuspelin mallista javakopio.
+Oheisella koodilla Arduino Mkr1000 mittasi parvekkeen lämpötilan lukemia, haki verrokkilukemia Openweathermapin apista ja lähetti ne Firebase-tietokantaan.
